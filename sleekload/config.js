@@ -18,11 +18,11 @@
 config.language = "english"
 
 // Use an image for the logo instead of text
-config.logo_use_image = true
+config.logo_use_image = false
 
 // Image filename for the server logo
 // (Place the image file in the images folder)
-config.logo_image = "logo.png"
+config.logo_image = ""
 
 // Text to be shown on logo
 config.logo_text = "Laid Back Gaming"
