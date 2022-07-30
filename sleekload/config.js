@@ -41,7 +41,7 @@ config.logo_show_info = true
 // Use a video for the background?
 // Otherwise it will use images
 // "true" or "false"
-config.background_use_video = true
+config.background_use_video = false
 
 // Default available videos:
 // "blue_rays.webm"
@@ -51,7 +51,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "purple_blue_rays.webm"
+config.background_video = ""
 
 // (Image-background only)
 // Enable map-based background image?
@@ -60,7 +60,7 @@ config.background_video = "purple_blue_rays.webm"
 // Also, the image needs to be in .jpg format
 // E.g: gm_flatgrass.jpg, gm_construct.jpg, rp_downtown_v4c_v2.jpg
 // "true" or "false"
-config.background_map_based = true
+config.background_map_based = false
 
 // (Image-background only)
 // Place one or more images
