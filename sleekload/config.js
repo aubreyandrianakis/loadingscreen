@@ -60,7 +60,7 @@ config.background_video = ""
 // Also, the image needs to be in .jpg format
 // E.g: gm_flatgrass.jpg, gm_construct.jpg, rp_downtown_v4c_v2.jpg
 // "true" or "false"
-config.background_map_based = true
+config.background_map_based = false
 
 // (Image-background only)
 // Place one or more images
