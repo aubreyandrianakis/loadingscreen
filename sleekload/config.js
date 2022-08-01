@@ -18,11 +18,11 @@
 config.language = "english"
 
 // Use an image for the logo instead of text
-config.logo_use_image = false
+config.logo_use_image = true
 
 // Image filename for the server logo
 // (Place the image file in the images folder)
-config.logo_image = ""
+config.logo_image = "logo.png"
 
 // Text to be shown on logo
 config.logo_text = "Laid Back Gaming"
@@ -60,7 +60,7 @@ config.background_video = ""
 // Also, the image needs to be in .jpg format
 // E.g: gm_flatgrass.jpg, gm_construct.jpg, rp_downtown_v4c_v2.jpg
 // "true" or "false"
-config.background_map_based = false
+config.background_map_based = true
 
 // (Image-background only)
 // Place one or more images
@@ -68,8 +68,6 @@ config.background_map_based = false
 // (Place the image files in the backgrounds/images folder)
 config.background_images = [
 	"background1.jpg",
-	"background2.jpg",
-	"background3.jpg",
 ]
 
 // (Image-background only)
@@ -121,6 +119,34 @@ config.music_playlist = [
 		name: "Faith Basoglu - Starboy (Remix)",
 		youtube: "https://www.youtube.com/watch?v=V1OpWQpdwUo",
 	},
+	{
+		name: "Assassin's Creed: Revelations - Main Theme",
+		youtube: "https://www.youtube.com/watch?v=2KndDDQZveQ",
+	},
+	{
+		name: "Kingdom Hearts 358/2 Days - Xion's Theme",
+		youtube: "https://www.youtube.com/watch?v=QV6Apkaborw",
+	},
+	{
+		name: "Final Fantasy VII - One Winged Angel (FalKKoNe Remix)",
+		youtube: "https://www.youtube.com/watch?v=TPB7nCod5-g",
+	},
+	{
+		name: "The Weeknd - House of Balloons / Glass Table Girls (Instrumental)",
+		youtube: "https://www.youtube.com/watch?v=1PmPjyx9I2g",
+	},
+	{
+		name: "GMOD Zombie Survival - Theme Song",
+		youtube: "https://www.youtube.com/watch?v=lahXpkO3GwI",
+	},
+	{
+		name: "Cyperpunk 2077 - Theme Song",
+		youtube: "https://www.youtube.com/watch?v=WoaciaBBCvc",
+	},
+	{
+		name: "Left 4 Dead - Main Menu",
+		youtube: "https://www.youtube.com/watch?v=5CGqSkckg_4",
+	},
 ]
 
 // Random music order?
@@ -129,7 +155,7 @@ config.music_random_order = true
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 15
+config.music_volume = 10
 
 // Use Gmod volume for the music instead of manual volume
 config.music_gmod_volume = true
@@ -142,8 +168,14 @@ config.messages_enable = true
 config.messages_list = [
 	"Welcome to Laid Back Gaming's Zombie Survival!",
 	"Make sure to join the Discord server at discord.gg/lbg!",
-	"Press F4 to change your zombie type.",
-	"Make sure you read the MOTD before you start playing!.",
+	"Press F3 to change your zombie type.",
+	"Make sure you read the MOTD before you start playing!",
+	"Want to listen to the music? Make sure you are using Chromium.",
+	"Donda > CLB",
+	"CLB > Donda",
+	"Type '!motd' to read the rules & guide!",
+	"Make sure to check out Laid Back Gaming's other servers! Like Prophunt!",
+	"Zombie Survival > Zombie Escape",
 ]
 
 // Random message order?
@@ -152,7 +184,7 @@ config.messages_random_order = true
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 2500
+config.messages_delay = 10000
 
 // Messages fade duration
 // in milliseconds
