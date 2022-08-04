@@ -68,6 +68,8 @@ config.background_map_based = false
 // (Place the image files in the backgrounds/images folder)
 config.background_images = [
 	"background1.jpg",
+	"background2.jpg",
+	"background3.jpg",
 ]
 
 // (Image-background only)
@@ -95,11 +97,11 @@ config.background_darkening = 30
 
 // Play music during the loading screen?
 // "true" or "false"
-config.music_enable = true
+config.music_enable = false
 
 // Display current music name?
 // "true" or "false"
-config.music_show = true
+config.music_show = false
 
 // Music playlist
 // Add as many youtube ids/urls or audio files you want
@@ -107,46 +109,7 @@ config.music_show = true
 // (Use ogg files for compatibility with default Gmod)
 // (Place the audio files in the music folder)
 config.music_playlist = [
-	{
-		name: "oksami - Dreamboard",
-		youtube: "https://www.youtube.com/watch?v=iJpwwwCVP94",
-	},
-	{
-		name: "Kingdom Hearts 3 - Vector To The Heavens Remix",
-		youtube: "https://www.youtube.com/watch?v=_X2DX8Vkyc8",
-	},
-	{
-		name: "Faith Basoglu - Starboy (Remix)",
-		youtube: "https://www.youtube.com/watch?v=V1OpWQpdwUo",
-	},
-	{
-		name: "Assassin's Creed: Revelations - Main Theme",
-		youtube: "https://www.youtube.com/watch?v=2KndDDQZveQ",
-	},
-	{
-		name: "Kingdom Hearts 358/2 Days - Xion's Theme",
-		youtube: "https://www.youtube.com/watch?v=QV6Apkaborw",
-	},
-	{
-		name: "Final Fantasy VII - One Winged Angel (FalKKoNe Remix)",
-		youtube: "https://www.youtube.com/watch?v=TPB7nCod5-g",
-	},
-	{
-		name: "The Weeknd - House of Balloons / Glass Table Girls (Instrumental)",
-		youtube: "https://www.youtube.com/watch?v=1PmPjyx9I2g",
-	},
-	{
-		name: "GMOD Zombie Survival - Theme Song",
-		youtube: "https://www.youtube.com/watch?v=lahXpkO3GwI",
-	},
-	{
-		name: "Cyperpunk 2077 - Theme Song",
-		youtube: "https://www.youtube.com/watch?v=WoaciaBBCvc",
-	},
-	{
-		name: "Left 4 Dead - Main Menu",
-		youtube: "https://www.youtube.com/watch?v=5CGqSkckg_4",
-	},
+
 ]
 
 // Random music order?
