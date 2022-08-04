@@ -81,12 +81,12 @@ config.background_images_random_order = true
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-config.background_images_duration = 5000
+config.background_images_duration = 20000
 
 // (Image-background only)
 // Image background fade duration
 // in milliseconds
-config.background_images_fade_duration = 2000
+config.background_images_fade_duration = 4000
 
 // Enable background overlay?
 // "true" or "false"
