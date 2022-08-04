@@ -134,11 +134,11 @@ config.messages_list = [
 	"Press F3 to change your zombie type.",
 	"Make sure you read the MOTD before you start playing!",
 	"Want to listen to the music? Make sure you are using Chromium.",
-	"Donda > CLB",
-	"CLB > Donda",
 	"Type '!motd' to read the rules & guide!",
 	"Make sure to check out Laid Back Gaming's other servers! Like Prophunt!",
 	"Zombie Survival > Zombie Escape",
+	"The zombies drop health & ammo!",
+	"Players drop their weapons on death.",
 ]
 
 // Random message order?
